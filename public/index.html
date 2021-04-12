@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Junaid Rahim</title>
+
+<meta name="generator" content="Hugo Eureka 0.7.1-dev" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hud45289d86a7b7f449ff2c0e41cf678e0_11335_32x32_fill_box_center_2.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hud45289d86a7b7f449ff2c0e41cf678e0_11335_180x180_fill_box_center_2.png">
+
+<meta name="description"
+  content="Eureka is a elegant and powerful theme for Hugo.">
+
+
+
+<meta property="og:title" content="Junaid Rahim" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/" />
+
+
+
+
+
+<meta property="og:description" content="Eureka is a elegant and powerful theme for Hugo." />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Junaid Rahim" />
+
+
+
+
+
+
+
+
+<meta property="article:section" content="" />
+
+
+<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Junaid Rahim" />
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Junaid Rahim</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="https://blog.junaidrahim.in" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Blog</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+  
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-secondary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="about" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+    <div class="flex flex-col md:flex-row items-center justify-center mb-12">
+  
+  
+    <div class="flex-none w-48 mx-auto md:ml-0 md:mr-8 md:pr-8 md:border-r">
+      <img src="/images/icon.png" class="rounded-full" alt="Avatar">
+    </div>
+  
+  <div class="flex-grow mt-4 md:mt-0">
+    <div class="text-3xl py-4">Junaid H. Rahim</div>
+    <div class="w-3/12 xl:w-2/12 border-b"></div>
+
+    <div class="flex items-center pt-4">
+      
+        <i class="fas fa-user"></i>
+      
+      <div class="flex flex-wrap">
+        
+          <span class="pl-4">Sophomore, CSE</span>
+        
+
+        
+          <a href="https://kiit.ac.in/" class="pl-4">Kalinga Institute of Industrial Technology</a>
+        
+      </div>
+
+    </div>
+
+    
+      <div class="py-8 text-lg leading-normal">
+        I am currently a sophomore at KIIT, Bhubaneshwar studying Computer Science and Engineering. Mostly interested in Systems Engineering and Machine Learning.
+      </div>
+    
+  </div>
+  <div class="flex md:flex-col justify-center items-end ml-8">
+    
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://github.com/junaidrahim"><i class="fab fa-github"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://twitter.com/junaidrahim31/"><i class="fab fa-twitter"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="mailto:junaidrahim5a@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://linkedin.com/in/junaidrahim"><i class="fab fa-linkedin"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://github.com/junaidrahim/resume/raw/master/Jan%202021/junaidrahim.pdf"><i class="fas fa-file-alt"></i></a>
+      </div>
+    
+  </div>
+</div>
+<div class="content">
+  <h2 id="hey-i-am-junaid">Hey, I am Junaid</h2>
+<p>I am currently a sophomore at <a href="https://kiit.ac.in/">KIIT, Bhubaneshwar</a> studying Computer Science and Engineering. I currently head the Web Team at <a href="https://dsckiit.tech/">DSC KIIT</a>. I also help run <a href="http://weekly.researchnewsletter.ml/">Weekly Research Newsletter - KIIT</a>.</p>
+<p>Computers and Math have fascinated me since I was a little kid. I started programming when I was 13 and eventually became extremely curious and passionate about computing. Most of my experience has been with full stack web technologies with a little bit of machine learning and deep learning. You can have a look at most of my work on my github.</p>
+<p>I mostly workout or do some stock trading in my free time. I read a lot, mostly about psychology, society, tech, design and economics. I love to learn new things and build something cool.</p>
+<h2 id="skills-and-interests">Skills and Interests</h2>
+<ul>
+<li><strong>Languages</strong>: Python, Javascript, C/C++, Golang</li>
+<li><strong>Frameworks</strong>: React, PyTorch, Scikit-learn, Pandas, Flask, Echo, NodeJS, Typescript</li>
+<li><strong>Other</strong>: Git, Linux, SQL, CI/CD, Docker, MS Azure, AWS, Firebase, Latex</li>
+</ul>
+<p>My prime interest lies in the intersection of systems engineering and machine learning. I really enjoy learning about system architecture and deploying
+ML/DL models at scale.</p>
+<h2 id="projects">Projects</h2>
+<p>Here are some of the key projects I have worked on in the past few months</p>
+<ul>
+<li>
+<p><a href="https://github.com/DSC-KIIT/divert"><strong>Divert - DSCKIIT&rsquo;s URL Redirection Service</strong></a></p>
+<ul>
+<li>Developed the internal URL redirect service, handling over 1k redirects at peak load. Improved latency and throughput using hashmaps, caching and multi-threading</li>
+</ul>
+</li>
+<li>
+<p><a href="https://gitlab.com/innerve/sperm-motility-analysis"><strong>Semen Motility Analysis Using 3D CNNs</strong></a></p>
+<ul>
+<li>Semen analysis is an integral part of Invitro Fertilization also known as IVF. We trained a spatial temporal 3D convolutional neural network to predict sperm motility from videos along with other tabular data.</li>
+<li><em>Runner Up, Innerve Data Hackathon, 2020 Organised by IGDTUW</em></li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/DSC-KIIT/project-halide"><strong>HalideOS</strong></a></p>
+<ul>
+<li>An Experimental OS written entirely from scratch.</li>
+<li>It supports a basic shell with some commands including a command line calculator. You can boot it up in virtual box.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/teambitflip/plothole"><strong>Plothole - AI powered Pothole Reporting</strong></a></p>
+<ul>
+<li>Developed an end to end AI powered pothole reporting system. Photos of potholes clicked by citizens are classified by CNN’s (VGG-16) to determine validity and severity.</li>
+<li><em>Submitted for Smart India Hackathon, 2020.</em></li>
+</ul>
+</li>
+</ul>
+<p>Most of my other projects are open sourced under the MIT license and available on my <a href="https://www.github.com/junaidrahim">github</a></p>
+<h2 id="publications">Publications</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2101.02888">Predicting Semen Motility using three-dimensional Convolutional Neural Networks</a></li>
+</ul>
+<h3 id="youtube">YouTube</h3>
+<p>Just some of the videos I put out, most of them are tutorials or sessions I conduct online for DSC KIIT.</p>
+<ul>
+<li><a href="https://youtu.be/JTIm3ChI-6w">Session 2 : Building Video Chat Apps using WebRTC and Golang</a></li>
+<li><a href="https://youtu.be/xH6F806CvQc">Building our Internal URL Redirect Service - Divert | Dev Vlog</a></li>
+<li><a href="https://youtube.com/playlist?list=PLT-AS3Wcy-pkPo1ECXgh1QZCor7CwqQDw">Learn C - The fun way</a></li>
+</ul>
+<hr>
+<h3 id="what-am-i-reading-these-days-">What am I reading these days ?</h3>
+<p>Currently I am reading <strong>The Battle for Beloning</strong> by <strong>Shashi Tharoor</strong>. It&rsquo;s about looking at nationalism in a meta way and noticing how the meaning of nationalism has changed so much in the recent times esp with the rise of populism in democracies all across the world.</p>
+<p>I kinda maintain a to-be-read list <a href="https://www.notion.so/jhr/Reading-List-04bdaadef0cf424e9a6212af1270e0e5">here</a>. If you&rsquo;re really curious :)</p>
+<h3 id="contact">Contact</h3>
+<ul>
+<li>Email: <a href="mailto:junaidrahim5a@gmail.com">junaidrahim5a@gmail.com</a></li>
+<li>Twitter: <a href="https://www.twitter.com/junaidrahim31">@junaidrahim31</a></li>
+<li><a href="https://www.linkedin.com/in/junaidrahim">LinkedIn</a></li>
+<li><a href="https://www.github.com/junaidrahim">GitHub</a></li>
+<li><a href="https://scholar.google.com/citations?user=nivtKY8AAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
+</ul>
+
+</div>
+
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-primary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="experiences" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row">
+      <div class="flex-none lg:w-1/4 lg:mr-4">
+        <h2 class="font-bold text-3xl my-4">Experiences and Updates</h2>
+      </div>
+      <div class="flex-grow lg:ml-4">
+        
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Freelance Web Developer</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://theyellowfilter.net">The Yellow Filter</a>
+          
+
+          
+
+          <span> </span>
+        </div>
+        <div class="flex-shrink-0"> Dec 2020 - Jan 2021</div>
+      </div>
+    </div>
+
+    <div class="content">
+      Developed and deployed the company portfilio website to improve outreach. Used Gatsby and Firebase.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">International Conference on Learning Representations</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://example.org">Guide: Prof. Alexander Rush</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>Cornell NLP, Cornell University </span>
+        </div>
+        <div class="flex-shrink-0"> March 2020 - April 2020</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <ul>
+<li>Worked with Prof. Rush’s team to build the open source virtual conference portal for ICLR 2020. Implemented backend to manage all the submitted papers via the OpenReview API.</li>
+<li>The portal gathered 1M+ page views, 100k+ video watches and 80k+ chat messages</li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Research Project, NLP</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://scholar.google.com/citations?user=YKc7Kz0AAAAJ&amp;hl=en">Guide: Prof. Debajyoti Banik</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>KIIT University </span>
+        </div>
+        <div class="flex-shrink-0"> Dec 2019 - August 2020</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <ul>
+<li>Worked with Prof. Banik on a research project titled &lsquo;Neural Network based Optimized Pruning Strategy for
+Statistical Machine Translation&rsquo;</li>
+</ul>
+
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Web Team Lead</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="https://example.org">Developer Students Club KIIT</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>KIIT University </span>
+        </div>
+        <div class="flex-shrink-0"> Sept 2020 - Present</div>
+      </div>
+    </div>
+
+    <div class="content">
+      As a member of DSC KIIT I work with my team on various interesting projects and also make videos on various web development related topics.
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="bg-secondary-bg rounded border hover:shadow-lg transition ease-in-out duration-200 px-6 pt-6 pb-4">
+    <div class="mb-4">
+      <div class="font-bold text-xl">Full Stack Web Developer</div>
+      <div class="flex flex-col md:flex-row md:justify-between">
+        <div>
+          
+          <a href="http://desirefoundation.org">Desire Foundation</a>
+          
+
+          
+          <span class="ml-2 mr-2">·</span>
+          
+
+          <span>KIIT University </span>
+        </div>
+        <div class="flex-shrink-0"> August 2019 - Present</div>
+      </div>
+    </div>
+
+    <div class="content">
+      I work on the team responsible for building and maintaining the website and blog. I mostly work with NodeJS, Gatsby and MySQL.
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://junaidrahim.in/">Junaid Rahim</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>
