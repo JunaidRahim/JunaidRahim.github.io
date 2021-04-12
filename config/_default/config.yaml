@@ -1,5 +1,6 @@
 baseURL: /
 title: Junaid Rahim
+publishDir: docs
 
 # Comment when installing using Hugo Modules
 theme: eureka
