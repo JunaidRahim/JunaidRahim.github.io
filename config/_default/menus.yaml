@@ -1,4 +1,7 @@
 main:
   - name: Blog
-    url: 'https://medium.com/@junaidrahim'
+    url: 'https://blog.junaidrahim.in'
     weight: 1
+  - name: Medium
+    url: 'https://medium.com/@junaidrahim'
+    weight: 2
