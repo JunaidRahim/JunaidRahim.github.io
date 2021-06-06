@@ -1,9 +1,9 @@
 ---
 title: Junaid H. Rahim
 draft: false
-role: Sophomore, CSE
+role: Junior, CSE
 avatar: images/icon.png
-bio: I am currently a sophomore at KIIT, Bhubaneshwar studying Computer Science and Engineering. Mostly interested in Systems Engineering and Machine Learning.
+bio: Currently working as a **Backend Engineering Intern** at [Atlan](https://atlan.com/). <br> I am a Junior at KIIT, Bhubaneshwar studying Computer Science and Engineering. Mostly interested in Systems Engineering and Machine Learning.
 organization:
   name: Kalinga Institute of Industrial Technology
   url: https://kiit.ac.in/
@@ -51,7 +51,9 @@ widget:
 
 ## Hey, I am Junaid
 
-I am currently a sophomore at [KIIT, Bhubaneshwar](https://kiit.ac.in/) studying Computer Science and Engineering. I currently head the Web Team at [DSC KIIT](https://dsckiit.tech/). I also help run [Weekly Research Newsletter - KIIT](http://weekly.researchnewsletter.ml/).
+I am currently working as a **Backend Engineering Intern** at [Atlan](https://atlan.com/). I am a junior at [KIIT, Bhubaneshwar](https://kiit.ac.in/) studying Computer Science and Engineering. I also head the Web Team at [DSC KIIT](https://dsckiit.tech/). 
+
+Some of my other side hustles include this [podcast](https://youtube.com/playlist?list=PLT-AS3Wcy-pml3awLkIeSIBnVgIPSRzeD) and this  [Weekly Research Newsletter](http://weekly.researchnewsletter.ml/).
 
 Computers and Math have fascinated me since I was a little kid. I started programming when I was 13 and eventually became extremely curious and passionate about computing. Most of my experience has been with full stack web technologies with a little bit of machine learning and deep learning. You can have a look at most of my work on my github. 
 

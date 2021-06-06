@@ -2,6 +2,15 @@
 title: Experiences and Updates
 draft: false
 experiences:
+  - title: Backend Engineering Internship
+    organization:
+      name: Atlan
+      url: https://atlan.com/
+    dates: 'June 2021 - Present'
+    location: Remote
+    writeup: >
+      
+  
   - title: Freelance Web Developer
     organization:
       name: The Yellow Filter
